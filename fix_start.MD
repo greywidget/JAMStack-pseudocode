@@ -27,9 +27,9 @@ FUNCTION fixStart(in_string)
 ```
 def fix_start(in_string):
     out_string = []
-    first_character = ""
+    first_character = None
     for char in in_string:
-        if first_character == "":
+        if not first_character:
             first_character = char
             out_string.append(char)
         elif char == first_character:

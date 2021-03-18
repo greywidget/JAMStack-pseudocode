@@ -45,7 +45,7 @@ def list_books(books):
 def list_books_with_status(books):
     for book in books:
         status = 'You already read' if book.read else 'You still need to read'
-        print(status, book.title, 'by', book.author)
+        print(f'{status} "{book.title}" by {book.author}')
 
 list_books(books)
 print()
@@ -55,7 +55,7 @@ list_books_with_status(books)
 >>> The Lord of the Rings by J.R.R Tolkien
 >>> Lord of the Flies by William Golding
 
->>> You already read The Hobbit by J.R.R Tolkien
->>> You still need to read The Lord of the Rings by J.R.R Tolkien
->>> You already read Lord of the Flies by William Golding
+>>> You already read "The Hobbit" by J.R.R Tolkien
+>>> You still need to read "The Lord of the Rings" by J.R.R Tolkien
+>>> You already read "Lord of the Flies" by William Golding
 ```
