@@ -1,5 +1,6 @@
 # Recipe
 
+## Task
 - Create an object to hold information on your favourite recipes. It should have properties for:
     - title (a string)
     - servings (a number)
@@ -8,6 +9,7 @@
 - List all recipes
 - Create a loop to list all of the ingredients.
 
+## Pseudocode
 ```
 FUNCTION list_recipes(recipe_array)
     FOR EACH recipe in recipe_array
@@ -42,8 +44,7 @@ FUNCTION list_all_ingredients(recipe_array)
         PRINT('- ', ingredient, newline)
 ```
 
-**Tested Solution in Python**
-
+## Python Solution
 ```
 from collections import namedtuple
 
@@ -89,7 +90,10 @@ def list_all_ingredients(recipes):
 
 list_recipes(recipes)
 list_all_ingredients(recipes)
+```
 
+## Output
+```
 >>> === Cheese on toast (serves 1) ===
 >>> INGREDIENTS
 >>> - bread

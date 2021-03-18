@@ -1,11 +1,13 @@
 # Fix Start
 
+## Task
 Create a function called **fixStart**. It should take a single argument, a string, and return a version where all occurrances of its first character have been replaced with **\***, except for the first character itself. you can assume that the string is at least one character long. For example:
 
 `fixStart('babble'): 'ba**le'`
 
 `fixStart('turtle'): 'tur*tle'`
 
+## Pseudocode
 ```
 FUNCTION fixStart(in_string)
     out_string = ""
@@ -22,8 +24,7 @@ FUNCTION fixStart(in_string)
     RETURN out_string
 ```
 
-**Tested solution in Python**
-
+## Python Solution
 ```
 def fix_start(in_string):
     out_string = []
@@ -40,7 +41,10 @@ def fix_start(in_string):
 
 print(fix_start('babble'))
 print(fix_start('turtle'))
+```
 
+## Output
+```
 >>> ba**le
 >>> tur*le
 ```
