@@ -53,8 +53,8 @@ recipe1 = recipe('Cheese on toast', 1, 'bread butter cheese marmite'.split(),
                   ('toast the bread',
                    'spread butter on the toast',
                    'spread marmite on the toast',
-                   'grate some cheese on the toast',
-                   'sprinkle grated cheese on the toast',
+                   'grate some cheese',
+                   'sprinkle the grated cheese on the toast',
                    'place under the grill until cheese is melted')
                 )
 
@@ -100,8 +100,8 @@ list_all_ingredients(recipes)
 >>> - toast the bread
 >>> - spread butter on the toast
 >>> - spread marmite on the toast
->>> - grate some cheese on the toast
->>> - sprinkle grated cheese on the toast
+>>> - grate some cheese
+>>> - sprinkle the grated cheese on the toast
 >>> - place under the grill until cheese is melted
 >>> 
 >>> === Jam Sandwich (serves 1) ===
